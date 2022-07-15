@@ -1,7 +1,7 @@
 import streamlit as st 
 import joblib 
 
-model_nb = joblib.load('Pass-Fail')
+model_nb = joblib.load('Pass-Fail.csv')
 
 st.title("PASS FAIL CLASSIFIER")
 ip = st.text_input("Enter The Marks:")
